@@ -81,8 +81,11 @@ h1 {
 }
 
 #hero {
-    width: 100%;
     padding-bottom: 40px;
+}
+
+#hero img {
+    width: 100%;
 }
 
 #main3 {
