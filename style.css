@@ -1,0 +1,191 @@
+header {
+    padding: 40px;
+}
+
+.test {
+    margin-top: 15px;
+    height: 15px;
+    background-image: url('./img/hr-img.png');
+    background-repeat: repeat;
+}
+
+#head1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#head2 {
+    display: flex;
+}
+
+#headsub2 {
+    /* padding-top: 7px; */
+    align-items: center;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+#headsub2 h2 {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+#headsub2 p {
+    color: grey;
+}
+
+#headsubimg {
+    padding-top: 15px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+#main1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+    padding: 0 40px 40px 40px;
+}
+
+#main2 {
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+#main2 h1 {
+    padding-top: 20px;
+}
+
+#main2 p {
+    text-transform: uppercase;
+    color: grey;
+}
+
+#main2 img {
+    width: 100%;
+    height: 20%;
+    /* padding-top: 50px; */
+}
+
+#mainsub2 {
+    display: flex;
+    align-items: flex-end;
+    color: grey;
+    text-transform: uppercase;
+}
+
+#hero {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#main3 {
+    padding-bottom: 40px;
+}
+
+#main3 p {
+    text-indent: 25px;
+}
+
+#main5 {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+
+#mainsub5 {
+    display: flex;
+}
+
+#mainsub5 div {
+    padding-left: 20px;
+}
+
+#mainsub5 div h3 {
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+
+#mainsub5 div p {
+    line-height: 25px;
+}
+
+button {
+    background-color:#bc7058;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 150px;
+}
+
+#list {
+    z-index: -1;
+}
+
+#list-container {
+    background-image: url(./img/list-bg.png);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul div {
+    padding: 30px 40px;
+}
+
+li {
+    margin: 12px;
+}
+
+#test2 {
+    margin-top: 50px;
+}
+
+#strike {
+    text-decoration: line-through;
+}
+
+#hr-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    color:grey;
+}
+
+#hr-container img {
+    position: relative;
+    bottom: 5px;
+}
+
+#hr1 {
+    border-top: solid;
+    width: 40%;
+    position: relative;
+}
+
+#hr2 {
+    border-top: solid;
+    width: 40%;
+    position: relative;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+    line-height: 25px;
+    color: grey;
+}
+
